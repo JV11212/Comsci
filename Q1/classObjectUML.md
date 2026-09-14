@@ -10,7 +10,7 @@
 | fuellevel | double   | current amount of fuel | 
 ## Methods 
 | Method | Description | 
-|---|---|| | |
+|---|---|
 | drive(distance) | moves a car a given distance | 
 | refuel(amount) | adds fuel to the car up to it's tank capacity | 
 | getfuellevel() | shows the current fuellevel| 
