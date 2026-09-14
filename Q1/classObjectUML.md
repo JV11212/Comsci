@@ -1,9 +1,9 @@
 # SG4 - Understanding Classes and Objects 
 ## Car
 ## a car class encapsulates vehicle specs, fuel dynamics, and mileage tracking.  
-## Properties
+## Properties 
+| Property | Data Type |     Description       |
 |---|---|---|
-| Property | Data Type |     Description       |  
 |  make   | string   |  the brand of the car  | 
 | model | string  | the specific model name  |   
 | year    | int    |  the manufacturing year of the car    |  
