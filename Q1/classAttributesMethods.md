@@ -7,10 +7,10 @@ Describe any changes made to your original class.
 ## Visibility Decisions 
 | Attribute | Data Type | Visibility | Reason | 
 |---|---|---|---| 
-| | | | | 
-| | | | | 
-| | | | | 
-| | | | | 
+| make| 	string| Public|Identifying info that's safe to read directly; changing it doesn't risk breaking any internal logic. | 
+|model | string| Public |	Same reasoning as make descriptive, not tied to the object's internal state. | 
+|year |	int |Public |	Static metadata about the car; there's no invariant to protect. | 
+|fuellevel | double| Private|Changes constantly through drive()/refuel() and must stay within a valid range. | 
 ## Updated UML Class Diagram 
 ![Class Diagram](images/classDiagramSG5.png) 
 ## Python Implementation
