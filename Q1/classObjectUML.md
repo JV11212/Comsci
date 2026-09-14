@@ -16,7 +16,7 @@
 | getfuellevel() | shows the current fuellevel| 
 | honk() | simulates the car honking |
 ## Class Diagram 
-![Class Car](![alt text](image.png))
+![Class Car](image.png)
 ## Design Explanation 
 ### The Car class is simple four properties describe the car, four methods let it act. 
 ### The most important property is fuellevel because it's the only one that changes and drives the object's behavior.
