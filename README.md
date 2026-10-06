@@ -4,6 +4,15 @@
 ## Links:
 ##£
 
+Computational Thinking Exercise:
+[Q1/ctskillsSiliconSODSOD](/Q1/ctskillsSiliconSODSOD)
+
+Chinese Zodiac:
+[Q1/zodiacSiliconSODSOD.py](/Q1/zodiacSiliconSODSOD.py)
+
+OOP Concept:
+[Q1/ila_oop.md](/Q1/ila_oop.md)
+
 OOP ACT:
 [classOjectUML.md](/Q1/classObjectUML.md)
 
