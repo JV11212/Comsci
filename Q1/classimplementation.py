@@ -1,9 +1,9 @@
 class Car:
-    def __init__(self, make, model, year, fuel_level, mileage = 0.0):
-        self.make = make                   
-        self.model = model                
+    def __init__(self, make, model, year, fuel_level, mileage=0.0):
+        self.make = make                    
+        self.model = model                  
         self.year = year                    
-        self.__fuel_level = fuel_level     
+        self.__fuel_level = fuel_level      
         self.__mileage = mileage            
         self.__tank_capacity = 50.0         
  
@@ -35,7 +35,9 @@ class Car:
     def __str__(self):
         return (f"{self.year} {self.make} {self.model} | "
                 f"fuel={self.__fuel_level:.1f} L | mileage={self.__mileage:.1f} km")
- if __name__ == "__main__":
+ 
+ 
+if __name__ == "__main__":
     car1 = Car("Toyota", "Vios", 2020, 30.0)
     car2 = Car("Honda", "Civic", 2022, 45.0)
  
