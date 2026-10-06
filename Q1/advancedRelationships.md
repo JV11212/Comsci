@@ -13,8 +13,10 @@ Explanation: A car is a type of vehicle. Vehicle holds shared data (make, model,
 Relationship: Composition between Car and Engine 
 Explanation: Aggregation between Driver and Vehicle. Explanation: Car creates its own Engine inside __init__, so the engine is part of that car and does not exist on its own in my system. A Driver receives vehicles that already exist, and they keep existing if the driver is removed. 
 ## Advanced UML Diagram 
-![Advanced UML](images/advancedClassDiagram.png) ## Python Implementation 
-[Source Code](advancedRelationships.py) ## Test Run 
+![Advanced UML](images/advancedClassDiagram.png) 
+## Python Implementation 
+[Source Code](advancedRelationships.py) 
+## Test Run 
 ![Test](images/advancedTestRun.png) 
 ## Object Diagram 
 ![Objects](images/advancedObjectDiagram.png)
