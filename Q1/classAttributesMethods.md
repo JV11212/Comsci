@@ -20,7 +20,7 @@ Changes from my previous design:
 ## Updated UML Class Diagram 
 ![Class Diagram](images/classDiagramSG5.png) 
 ## Python Implementation
-[View Python Source](classImplementation.py) 
+[View Python Source](classimplementation.py) 
 ## Test Run 
 ![Test Run](images/classTestRun.png) 
 ## Object Diagram 
