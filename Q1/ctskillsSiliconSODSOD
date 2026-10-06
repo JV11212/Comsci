@@ -1,0 +1,75 @@
+Jay Vie R. Sodsod 9 - Silicon 10/6/2026
+
+"Smart School Canteen Queue"
+
+Step 1: The main problem is that too much students that try to line up, and the students take too much time to order what they want. There is also no way to track which food item isn't available and which is available. This makes ordering an item that wasn't available a hassle.
+
+Step 2:
+
+  
+
+Students take too long to decide what to order.
+Cashiers manually calculate totals and give change.
+There is no system to track food stock.
+There is no way to know what time the canteen is available.
+Step 3:
+
+  
+
+Sub - Problem                           Ct Skill                     Example Solution
+1. Students take too long    Abstraction: simplify the ordering      Add a menu/QR code
+to decide what to order.     process by hiding the unnecessary       menu outside the line
+                             complexity                              so students know what
+                                                                     to order
+
+2. Cashiers manually         Algorithm design: create a step by      Add a machine that the
+calculate totals and give    step automated process                  students will simply
+change.                                                              insert their money in
+                                                                     and it will give their change
+
+3. There is no system        Decomposition - break inventory         Add a TV screen that
+to track food stock.         into trackable units                    will show which items
+                                                                     are in stock.
+
+4. There is no way to        Decomposition: analyze data over        Add a sign outside
+know what time the canteen   time to find trends                     the canteen door that
+is available.                                                        shows what time the
+                                                                     canteen is open.
+Step 4:
+
+
+
+START
+
+DISPLAY menu with prices
+SET total = 0
+
+WHILE student is still ordering
+    DISPLAY "Select item or press DONE"
+    INPUT item_choice
+
+    IF item_choice == "DONE"
+        BREAK
+    ELSE
+        GET price of item_choice
+        SET total = total + price
+        DISPLAY "Item added. Current total: " + total
+    ENDIF
+END WHILE
+
+DISPLAY "Total amount due: " + total
+INPUT amount_paid
+
+IF amount_paid < total
+    DISPLAY "Insufficient payment. Please pay the remaining balance."
+ELSE
+    SET change = amount_paid - total
+    DISPLAY "Your change is: " + change
+ENDIF
+
+PRINT receipt (items, total, amount_paid, change)
+
+END
+
+
+Step 5: Start → Display Menu → Loop: Select Item → Add to Total → Ask "More items?" → (Yes: loop back / No: exit loop) → Display Total → Input Payment → Decision: Is Payment ≥ Total? → (No: show insufficient message / Yes: calculate & display change) → Print Receipt → End
