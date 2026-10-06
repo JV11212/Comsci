@@ -7,4 +7,6 @@
 OOP ACT: https://github.com/JV11212/Comsci/blob/805cd2f60d013d02f299d4d69f9a203053b71a83/Q1/classObjectUML.md
 
 OOP ACT 2: https://github.com/JV11212/Comsci/blob/ed21d6e501634e4cd468fdc82cb333d614f23f13/Q1/classAttributesMethods.md
-         : https://github.com/JV11212/Comsci/blob/3a7b2a8f7563e091f71cea2e6470cd29611bec36/Q1/classimplementation.py
+: https://github.com/JV11212/Comsci/blob/3a7b2a8f7563e091f71cea2e6470cd29611bec36/Q1/classimplementation.py
+
+OOP ACT 3: https://github.com/JV11212/Comsci/blob/2e689ca03e43750d5f3ce85661b492974fbe5994/Q1/classRelationships.md
