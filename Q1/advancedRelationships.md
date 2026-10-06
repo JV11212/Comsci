@@ -8,7 +8,8 @@ Parent: Vehicle
 Child: Car (also Motorcycle) 
 Explanation: A car is a type of vehicle. Vehicle holds shared data (make, model, year, plate_number, mileage) and shared methods (get_mileage, display_info). Car and Motorcycle add only what is specific to them. 
 ## Inheritance UML 
-![Inheritance](images/inheritanceDiagram.png) ## Composition/Aggregation 
+![Inheritance](images/inheritanceDiagram.png) 
+## Composition/Aggregation 
 Relationship: Composition between Car and Engine 
 Explanation: Aggregation between Driver and Vehicle. Explanation: Car creates its own Engine inside __init__, so the engine is part of that car and does not exist on its own in my system. A Driver receives vehicles that already exist, and they keep existing if the driver is removed. 
 ## Advanced UML Diagram 
