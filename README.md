@@ -1,6 +1,12 @@
 ## Jay Vie R. Sodsod
 ## 9 - Silicon
 
+## Hobbies
+I like playing online games and playing board games.
+
+## Favorite Food
+I like fried chicken.
+
 ## Links:
 ##£
 
