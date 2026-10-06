@@ -1,5 +1,5 @@
 ## Jay Vie R. Sodsod
-## 9 - Silicom
+## 9 - Silicon
 
 ## This line asks the user's birth year
 year = int(input("Enter your birth year: "))
